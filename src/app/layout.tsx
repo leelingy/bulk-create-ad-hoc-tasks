@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Workspace · Meetings & tasks demo",
-  description: "Demo workspace: meetings, notes, and bulk task creation",
+  title: "Bulk create ad hoc tasks from meeting notes",
+  description: "Meeting notes to firm tasks — preview demo",
 };
 
 export default function RootLayout({
