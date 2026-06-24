@@ -1,0 +1,43 @@
+.text-selection-toolbar {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  transform: translate(-50%, -100%);
+  margin-top: -8px;
+}
+
+.toolbar-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.workflow-notes-button {
+  background-color: #ff6b35;
+  color: white;
+}
+
+.workflow-notes-button:hover {
+  background-color: #e55a2b;
+}
+
+.ad-hoc-task-button {
+  background-color: #ff6b35;
+  color: white;
+}
+
+.ad-hoc-task-button:hover {
+  background-color: #e55a2b;
+}
+

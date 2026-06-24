@@ -1,0 +1,11 @@
+.manual-notes-editor {
+  width: 100%;
+}
+
+.manual-editor-actions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+}
+

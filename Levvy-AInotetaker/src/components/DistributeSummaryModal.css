@@ -1,0 +1,138 @@
+.distribute-modal {
+  max-width: 640px;
+}
+
+.distribute-intro {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.distribute-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.distribute-row {
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.distribute-row-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.distribute-guest-name {
+  font-weight: 600;
+  font-size: 15px;
+  color: #1a1a1a;
+}
+
+.distribute-guest-email {
+  font-size: 13px;
+  color: #666;
+  margin-top: 2px;
+}
+
+.distribute-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.distribute-badge.portal {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.distribute-badge.email {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.distribute-badge.multi {
+  background: #ede9fe;
+  color: #5b21b6;
+}
+
+.distribute-badge.none {
+  background: #f3f4f6;
+  color: #6b7280;
+}
+
+.distribute-hint {
+  font-size: 12px;
+  color: #7c3aed;
+  margin-bottom: 10px;
+}
+
+.distribute-channels {
+  display: flex;
+  gap: 16px;
+}
+
+.distribute-channel-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.distribute-channel-label.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.distribute-action-items {
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid #e8dff5;
+  background: #faf7ff;
+  border-radius: 8px;
+}
+
+.distribute-action-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.distribute-action-subject {
+  margin: 12px 0 8px;
+  font-size: 13px;
+  color: #555;
+}
+
+.distribute-action-list {
+  margin: 0 0 12px;
+  padding-left: 20px;
+  font-size: 13px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.distribute-success {
+  padding: 12px 16px;
+  background: #dcfce7;
+  color: #166534;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}

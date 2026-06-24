@@ -1,0 +1,33 @@
+.meeting-notes-container {
+  position: relative;
+  width: 100%;
+}
+
+.meeting-notes-content {
+  padding: 16px;
+  line-height: 1.6;
+  color: #333;
+  user-select: text;
+}
+
+.meeting-notes-content h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.meeting-notes-content p {
+  margin-bottom: 12px;
+}
+
+.meeting-notes-content ul {
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.meeting-notes-content li {
+  margin-bottom: 8px;
+}
+

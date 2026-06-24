@@ -1,0 +1,156 @@
+.ai-note-taker-modal {
+  max-width: 900px;
+  max-height: 90vh;
+}
+
+.ai-note-taker-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.ai-note-taker-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.ai-note-taker-body {
+  padding: 24px;
+  max-height: calc(90vh - 200px);
+  overflow-y: auto;
+}
+
+.ai-recap-section {
+  margin-bottom: 32px;
+  border: 2px solid #ffd4a3;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff9f0;
+}
+
+.recap-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.recap-icon {
+  color: #ff6b35;
+  display: flex;
+  align-items: center;
+}
+
+.recap-header h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.recap-textarea {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.recap-textarea:focus {
+  outline: none;
+}
+
+.executive-summary-section {
+  margin-bottom: 32px;
+}
+
+.executive-summary-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.executive-summary-textarea {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.executive-summary-textarea:focus {
+  outline: none;
+  border-color: #ff6b35;
+}
+
+.action-items-section h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+.action-items-textarea {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #333;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.action-items-textarea:focus {
+  outline: none;
+  border-color: #ff6b35;
+}
+
+.ai-note-taker-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
+
+.generate-button,
+.save-button {
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.generate-button {
+  background-color: #ff6b35;
+  color: white;
+}
+
+.generate-button:hover {
+  background-color: #e55a2b;
+}
+
+.save-button {
+  background-color: #ff6b35;
+  color: white;
+}
+
+.save-button:hover {
+  background-color: #e55a2b;
+}
+
